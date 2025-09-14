@@ -6,7 +6,7 @@ interface IUserWallet{
   tronPrivateKey: string;
   hasPendingDeposit: boolean;
   expectedAmount: Types.Decimal128;
-  expectedAmountExpiresAt?: Date;
+  expectedAmountExpiresAt?: Date | undefined;
   used:Boolean;
   createdAt?: Date;
   updatedAt?: Date;
