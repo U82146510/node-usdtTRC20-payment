@@ -4,9 +4,9 @@
     // File Layout
     "rootDir": "./src",
     "outDir": "./dist",
-    "module": "nodenext",
+    "module": "commonjs",
     "target": "es2022",
-    "moduleResolution": "nodenext",
+    "moduleResolution": "node",
     "types": ["node"],
 
 
